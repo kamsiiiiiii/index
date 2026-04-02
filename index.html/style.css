@@ -1,0 +1,765 @@
+body{
+max-width: 100%;
+
+}
+
+
+
+
+.nav{
+    padding-left: 180px;
+    height: 80px;
+    box-shadow:0 0 10px rgba(255, 255,255, 0.7);
+    margin-top: -20px;
+position: sticky;
+top: -20px;
+background-color: #f7ffff;
+color: black;
+ font-family: "Montserrat", sans-serif;
+}
+
+ul li{
+float: left;
+list-style: none;
+margin-right: 60px;
+font-size: 18px;
+
+}
+
+.left{
+    margin-left: 150px;
+padding-top: 20px;
+padding-bottom: 30px;
+font-weight: 350;
+font-family: "Montserrat", sans-serif;
+
+}
+
+
+.showSidebar{
+
+display: none;
+
+}
+
+.sidebar{
+top: -10px;
+bottom: 2px;
+right: 10px;
+position: fixed;
+width: 200px;
+z-index: 999;
+background-color: #f7f7f1;
+color:black;
+display: none;
+font-family: "Montserrat", sans-serif;
+}
+
+
+.one{
+margin-top: 45px;
+
+
+}
+
+.one1{
+color:#ff0000;
+
+
+}
+
+
+.one1:hover{
+color:#ff0000;
+padding: 10px;
+transition: 1s;
+cursor: pointer;
+}
+
+.two2:hover{
+color:#305cde;
+padding: 10px;
+transition: 1s;
+cursor: pointer;
+}
+
+ .three3:hover{
+color:#b87733;
+padding: 10px;
+transition: 1s;
+cursor: pointer;
+ }     
+
+ .four4:hover{
+color: #660033;
+padding: 10px;
+transition: 1s;
+cursor: pointer;
+ }
+
+.five5:hover{
+color: #8a9a5b;
+padding: 10px;
+transition: 1s;
+cursor: pointer;
+}
+
+
+.intro{
+   font-family: "Montserrat", sans-serif;
+text-align: center;
+margin-top: 150px;
+text-shadow: 0 0 10px rgba(255, 255,255, 0.7);
+}
+
+.top{
+font-size: 80px;
+ font-family: "Betania Patmos In", cursive;
+
+}
+
+.header2{
+    font-size: 30px;
+margin-top: -20px;
+ font-family: "Betania Patmos In", cursive;
+}
+.phase1{
+background-color: #f0ffff;
+margin-top: 120px;
+text-align: center;
+height: 200px;
+ font-family: "Montserrat", sans-serif;
+
+}
+
+.lifelong{
+font-size: 20px;
+letter-spacing: 3px;
+padding-top: 40px;
+font-family: "Montserrat", sans-serif;
+}
+
+.cov{
+font-size: 18px;
+
+}
+.write{
+padding-top: 90px;
+ font-size: 20px;
+
+}
+
+.rest{
+background-color: #fff4f2;
+display: grid;
+grid-template-columns: 500px 500px;
+justify-content: center;
+color: grey;
+padding-bottom: 20px;
+background-color: #fff4f2;
+font-family: "Quicksand", sans-serif;
+}
+
+.div-image{
+
+
+}
+
+.anime-img{
+border-radius: 50%;
+height:400px ;
+object-fit:contain;
+}
+
+.write-up{
+
+
+
+}
+
+.click{
+border: 2px solid cyan;
+width: 95px;
+background-color: white;
+padding-top: 12px;
+padding-bottom: 12px;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 1px;
+border-radius: 5px;
+}
+
+.click:hover{
+background-color: black;
+color: white;
+transition: 1.5s;
+border-radius: 10px;
+border-color:cyan;
+}
+
+.skills{
+text-align: center;
+font-weight: 400;
+margin-top: 100px;
+font-family: "Montserrat", sans-serif;
+}
+
+
+.skills-container{
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px 100px;
+column-gap:50px;
+justify-content: center;
+padding-top: 30px;
+margin-bottom: 50px;
+}
+
+
+.proffesional-skills{
+margin-top: 60px;
+font-weight: 300;
+font-family: "Montserrat", sans-serif;
+display: grid;
+column-gap: 70px;
+font-size: 18px;
+margin-top: 60px;
+justify-content: center;
+grid-template-columns: 100px 100px 100px 100px 100px 100px;
+}
+
+.proff{
+text-align: center;
+font-size: 20px;
+display: block;
+letter-spacing: 1px;
+font-family: "Montserrat", sans-serif;
+}
+.projects{
+margin-top: 60px;
+display: grid;
+grid-template-columns: 420px 420px;
+justify-content: center;
+column-gap: 20px;
+height:400px;
+}
+
+
+
+.topic{
+font-size: 25px;
+font-family: "Montserrat", sans-serif;
+text-align: center;
+margin-top: 60px;
+}
+
+.box1{
+padding: 15px;
+box-shadow:5px 5px 15px 5px whitesmoke;
+}
+
+
+
+.box2{
+box-shadow:5px 5px 15px 5px whitesmoke;
+padding:15px;
+}
+
+.box-writeup{
+font-size: 17px;
+text-align: center;
+margin-top: 30px;
+font-family: "Montserrat", sans-serif;
+}
+
+
+.content{
+font-size: 18px;
+align-items: center;
+font-family: "Montserrat", sans-serif;
+padding-top: 10px;
+}
+
+.p-bttn{
+border: 2px solid pink;
+width: 90px;
+font-size: 16px;
+background-color: #f7f7f1;
+padding: 8px;;
+font-family: "Montserrat", sans-serif;
+border-radius: 3px;
+}
+
+.foot{
+display: grid;
+grid-template-columns: 450px 300px;
+justify-content: center;
+column-gap: 20px;
+
+}
+
+.foot-img{
+
+
+
+}
+
+.lets{
+text-align: center;
+padding-top: 40px;
+line-height: 1.4;
+}
+
+
+.lgit{
+font-size: 50px;
+font-family: "Montserrat", sans-serif;
+
+
+}
+
+
+@media(max-width:1025px){
+
+.nav{
+padding-left: 30px;
+
+
+}
+
+
+ul li{
+margin-right: 50px;
+
+
+}
+
+
+.rest{
+display: block;
+text-align: center;
+
+}
+
+.showSidebar{
+display: none;
+
+}
+
+
+}
+
+@media(max-width:900px){
+
+.nav{
+padding-left: 20px;
+
+
+}
+
+.left{
+margin-left: 60px;
+width: 800px;
+padding-left:70px;
+}
+
+ul li{
+font-size: 17px;
+margin-right: 50px;
+
+}
+
+.top{
+font-size: 65px;
+
+}
+
+.header2{
+font-size: 25px;
+
+}
+
+
+
+.write{
+font-size: 20px;
+padding: 20px;
+}
+
+.skills-container{
+grid-template-columns: 1fr 1fr 1fr;
+font-size: 15px;
+
+}
+
+
+
+.proffesional-skills{
+grid-template-columns: 100px 100px 100px;
+column-gap: 180px;
+font-size: 16px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+
+.nav{
+background-color: white;
+
+}
+
+
+.top{
+font-size:50px ;
+}
+
+.header2{
+font-size: 25px;
+
+}
+
+.lifelong{
+font-size: 20px;
+
+}
+
+
+.write{
+font-size: 18px;
+padding-top: 10px;
+}
+
+.skills-container{
+grid-template-columns: 1fr 1fr 1fr;
+font-size: 15px;
+
+}
+
+
+
+.proffesional-skills{
+grid-template-columns: 100px 100px 100px;
+column-gap: 180px;
+font-size: 16px;
+}
+
+.one1{
+display: none;
+
+}
+
+.two2{
+display: none;
+
+}
+
+.three3{
+display: none;
+
+}
+
+.four4{
+display: none;
+
+}
+
+.five5{
+display: none;
+
+}
+
+
+.showSidebar{
+display: block;
+border: 1px solid black;
+padding: 2px;
+margin-left: -190px;
+}
+
+.lifelong{
+font-size: 17px;
+
+}
+
+.cov{
+font-size: 17px;
+
+
+}
+
+.projects{
+grid-template-columns: 370px 370px;
+
+}
+
+.content{
+font-size: 15px;
+padding-bottom: 20px;
+
+}
+}
+
+
+
+
+@media(max-width:700px){
+.nav{
+background-color: white;
+
+}
+
+.projects{
+display: block;
+padding: 20px;
+
+}
+
+.box1{
+margin-bottom: 20px;
+border-radius: 10px;
+
+}
+
+.box2{
+border-radius: 10px;
+
+
+}
+
+.imgg{
+display: block;
+
+}
+
+.foot{
+display: block;
+margin-top: 30px;
+
+}
+
+.foot-img{
+
+}
+
+
+.img{
+width: 200px; 
+margin-top: 300px;
+margin-left: 230px;
+margin-top: 300px;
+}
+
+
+.lgit{
+font-weight: 500;
+font-size: 40px;
+margin-top: -20px;
+margin-bottom: 10px;
+}
+
+span{
+margin-top: -10px;
+
+
+}
+
+
+}
+
+
+@media(max-width:750px){
+.nav{
+background-color: white;
+}
+
+
+
+
+
+}
+
+
+
+@media(max-width:600px){
+
+.nav{
+background-color: white;
+
+
+}
+
+
+.rest{
+padding: 15px;
+
+
+}
+
+.showSidebar{
+margin-right:100px;
+
+
+}
+
+
+.skills-container{
+grid-template-columns:150px 150px 150px;
+font-size: 15px;
+}
+
+.proffesional-skills{
+grid-template-columns:100px 100px 100px;
+column-gap: 100px;
+font-size: 15px;
+
+}
+
+.top{
+font-size: 50px;
+
+}
+.header2{
+    font-size:20px;
+}
+
+.lifelong{
+font-size: 17px;
+
+}
+
+.cov{
+font-size: 17px;
+
+}
+
+.write{
+font-size: 19px;
+z-index: 999;
+padding-top: 5px;
+}
+
+.sidebar{
+left: 10px;
+
+}
+
+.foot{
+display: block;
+
+}
+.foot-imggg{
+display: block;
+margin-left: -40px;
+}
+
+}
+
+
+
+@media(max-width:500px){
+.top{
+font-size: 40px;
+
+}
+
+.header2{
+font-size: 20px;
+padding: 15px;
+
+}
+
+.anime-img{
+width: 300px;
+
+}
+
+.skills-container{
+grid-template-columns: 1fr 1fr;
+
+}
+.proffesional-skills{
+grid-template-columns: 100px 100px;
+
+
+}
+
+.sidebar{
+left: 3px;
+
+
+
+}
+
+.foot-imggg{
+display: block;
+margin-left: -100px;
+}
+
+}
+
+
+
+
+
+
+
+@media(max-width:400px){
+body{
+
+
+}
+.top{
+font-size: 35px;
+
+}
+
+.header2{
+font-size: 20px;
+margin-top: 20px;
+}
+
+.lifelong{
+font-size:17px;
+
+}
+
+.anime-img{
+width: 300px;
+
+}
+
+.skills-container{
+grid-template-columns: 1fr 1fr;
+
+}
+.proffesional-skills{
+grid-template-columns: 100px 100px;
+font-size: 15px;
+}
+
+.foot{
+margin-top: 40px;
+display: block;
+}
+
+
+.foot-imggg{
+margin-left: -140px;
+
+}
+
+
+}
